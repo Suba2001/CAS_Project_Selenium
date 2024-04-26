@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count = "5"  >
+
+   <listeners>
+        <listener class-name ="utilities.ExtentReport"/>
+   </listeners>
+
+  <test  name="Chrome Test">
+  <parameter name = "browser" value = "chrome"  />
+  <parameter name = "search" value="GSD" />
+  
+    <classes>
+    <class name ="TestBase.BaseClass"/>
+       <class name="TestCase.TC_01_UserValidation"/>
+      <class name="TestCase.TC_02_WelcomeTextValidation"/>
+      <class name="TestCase.TC_03_DefaultCountry_Language"/>
+      <class name="TestCase.TC_04_Language_DropDown"/>
+      <class name="TestCase.TC_05_ToolTipList"/>
+    </classes>
+  </test> 
+  
+  
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
+

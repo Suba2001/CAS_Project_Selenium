@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T12:15:07 IST" name="Suite" finished-at="2024-04-02T12:16:19 IST" duration-ms="71395">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T12:15:07 IST" name="Chrome Test" finished-at="2024-04-02T12:16:19 IST" duration-ms="71395">
+      <class name="TestCase.TC_03_DefaultCountry_Language">
+        <test-method signature="countryDef()[pri:0, instance:TestCase.TC_03_DefaultCountry_Language@5e0e82ae]" started-at="2024-04-02T12:15:51 IST" name="countryDef" finished-at="2024-04-02T12:15:51 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryDef -->
+      </class> <!-- TestCase.TC_03_DefaultCountry_Language -->
+      <class name="TestCase.TC_05_ToolTipList">
+        <test-method signature="validateGsdDetails()[pri:0, instance:TestCase.TC_05_ToolTipList@51399530]" started-at="2024-04-02T12:15:52 IST" name="validateGsdDetails" finished-at="2024-04-02T12:16:07 IST" duration-ms="14895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGsdDetails -->
+      </class> <!-- TestCase.TC_05_ToolTipList -->
+      <class name="TestCase.TC_04_Language_DropDown">
+        <test-method signature="listLang()[pri:0, instance:TestCase.TC_04_Language_DropDown@6771beb3]" started-at="2024-04-02T12:15:52 IST" name="listLang" finished-at="2024-04-02T12:15:52 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listLang -->
+      </class> <!-- TestCase.TC_04_Language_DropDown -->
+      <class name="TestCase.TC_01_UserValidation">
+        <test-method signature="userInfo()[pri:0, instance:TestCase.TC_01_UserValidation@2d3379b4]" started-at="2024-04-02T12:15:19 IST" name="userInfo" finished-at="2024-04-02T12:15:27 IST" duration-ms="7594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInfo -->
+      </class> <!-- TestCase.TC_01_UserValidation -->
+      <class name="TestBase.BaseClass">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestBase.BaseClass@55182842]" started-at="2024-04-02T12:15:08 IST" name="setup" finished-at="2024-04-02T12:15:19 IST" duration-ms="11050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:TestBase.BaseClass@55182842]" started-at="2024-04-02T12:16:07 IST" name="exit" finished-at="2024-04-02T12:16:19 IST" duration-ms="11302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- TestBase.BaseClass -->
+      <class name="TestCase.TC_02_WelcomeTextValidation">
+        <test-method signature="windowSwitch(java.lang.String)[pri:0, instance:TestCase.TC_02_WelcomeTextValidation@30c15d8b]" started-at="2024-04-02T12:15:28 IST" name="windowSwitch" finished-at="2024-04-02T12:15:51 IST" duration-ms="23071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowSwitch -->
+      </class> <!-- TestCase.TC_02_WelcomeTextValidation -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
